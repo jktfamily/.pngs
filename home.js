@@ -1,6 +1,8 @@
 //sky
 background(0,255,255);
 
+noStroke();
+
 var c = 200;
 
 var hc = 100;
@@ -21,4 +23,4 @@ fill(0,255,0);
 //ground
 rect(-100,300,4000,300);
 
-//v0.2.0
+//v0.5
