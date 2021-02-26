@@ -36,6 +36,11 @@ rect(c-50,c,hc,hc);
     rect(230,212,a1,a1);
     rect(215,227,a1,a1);
     rect(230,227,a1,a1);
+    //left
+    rect(162,212,a1,a1);
+    rect(177,212,a1,a1);
+    rect(162,227,a1,a1);
+    rect(162,227,a1,a1);
 
 //ground
 noStroke();
