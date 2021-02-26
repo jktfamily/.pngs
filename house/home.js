@@ -7,6 +7,8 @@ var c = 200;
 
 var hc = 100;
 
+var a1 = 7.5;
+
 //sun
 fill(255,255,0);
 ellipse(0,0,250,250);
@@ -21,10 +23,23 @@ rect(c-50,c,hc,hc);
     //knob
     fill(0,0,0);
     ellipse(190,280,5,5);
+  //window
+    //frame
+    //right
+    fill(0,0,0);
+    rect(221,209,30,30);
+    //left
+    rect(159,209,30,30);
+    //glass
+    //right
+    rect(215,212,a1,a1);
+    rect(230,212,a1,a1);
+    rect(215,227,a1,a1);
+    rect(230,227,a1,a1);
 
 //ground
 noStroke();
 fill(0,255,0);
 rect(-100,300,4000,300);
 
-//v1.0
+//v 0.9.4
