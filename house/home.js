@@ -26,11 +26,12 @@ rect(c-50,c,hc,hc);
   //window
     //frame
     //right
-    fill(0,0,0);
+    fill(255,255,255);
     rect(221,209,30,30);
     //left
     rect(159,209,30,30);
     //glass
+    fill(0,0,255);
     //right
     rect(215,212,a1,a1);
     rect(230,212,a1,a1);
@@ -40,11 +41,13 @@ rect(c-50,c,hc,hc);
     rect(162,212,a1,a1);
     rect(177,212,a1,a1);
     rect(162,227,a1,a1);
-    rect(162,227,a1,a1);
+    rect(177,227,a1,a1);
 
 //ground
 noStroke();
 fill(0,255,0);
 rect(-100,300,4000,300);
 
-//v0.9
+/****
+v0.9.9/2045
+****/
